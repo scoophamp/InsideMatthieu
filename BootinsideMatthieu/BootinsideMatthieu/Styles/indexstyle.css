@@ -1,0 +1,64 @@
+﻿body {
+   
+}
+img {
+    animation: fade 9s infinite;
+    position: relative;
+    height: 120%;
+    width: 100%;
+    top:29%;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    17% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    92% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#id3 {
+    animation-delay: 6s;
+}
+
+#id2 {
+    animation-delay: 4s;
+}
+
+#id4 {
+    animation-delay: 2s;
+}
+#id1{
+    animation-delay:0s;
+}
+.wrap {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+    img {
+                position: absolute;
+        left: 0%;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    }
+  
+

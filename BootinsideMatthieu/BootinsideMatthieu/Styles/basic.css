@@ -1,2 +1,22 @@
 ﻿body {
+   
+}
+ header div {
+    background-color: rgba(255, 255, 255, 0.73);
+}
+  
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: orangered;
+    text-shadow:2px 1px #ffd800;
+    
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    
+   font-size:large;
+   background-color: rgba(255, 255, 255, 0.73);
+   
 }

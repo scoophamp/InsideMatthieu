@@ -99,6 +99,15 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HTML-pages\about.html" />
+    <Content Include="HTML-pages\comics.html" />
+    <Content Include="HTML-pages\contact.html" />
+    <Content Include="HTML-pages\perswork.html" />
+    <Content Include="HTML-pages\profwork.html" />
+    <Content Include="Images\example.PNG" />
+    <Content Include="Images\example2.PNG" />
+    <Content Include="Images\example3.PNG" />
+    <Content Include="Images\example4.PNG" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -129,15 +138,13 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Styles\basic.css" />
+    <Content Include="Styles\indexstyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="HTML-pages\" />
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
